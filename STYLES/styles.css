@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background: #1e162eff;
+    align-items: center;
+}
+
+nav {
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 15px;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+.NAV {
+    color: gray;
+}
+
+.primer {
+    background: linear-gradient(90deg, #7c45d6ff, #1576d6ff);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+}
+
+.seccion1 {
+    background-color: #2e244fff;
+    justify-content: space-between;
+    display: flex;
+    height: 80vh;
+    color: white;
+    align-items: center;
+}
+
+h1 {
+    font-size: 100px;
+    margin-left: 30%;
+}
+
+h4 {
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+.bg-transparent {
+    background-color:rgba(44, 44, 44, 0.418);
+    width: 100%;
+    height: 100%;
+}
+
+.celular {
+    width: 37%;
+     margin-left: 155px;
+    margin-top: 7% ;
+}
+
+.seccion1 aside {
+    height: 100%;
+    width: 50%;
+    background-image: url(../ASSETS/IMAGES/hojasFondo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.botones {
+    margin-left: 30%;
+    margin-right: 15%;
+    border: 2px solid #544d70;
+    padding: 6px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 0.4rem;
+    color: white;
+    padding: 1rem 1.4rem;
+    font-size: 1.6rem;
+}
+
+.colorido {
+    background-color: white;
+}
+
+span {
+    background: linear-gradient(to right, #ed66ac, #f51689);
+    font-size: 1.6rem;
+    font-weight: 500;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.a{
+    color: #f51689;
+    font-size: 60px;
+    text-align: center;
+}
+.info-fonct{
+    margin-left: 250px;
+}
+.com{
+    margin-left: 20%;
+    width: 30%;
+    margin-left: 15%;
+}
+.e{
+    color:#c24f8b;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.b{
+    display: flex;
+    justify-content: space-around;
+}
+.c{
+    margin-left: 5%;
+    margin-top: 3%;
+    color: #7c7c7d;
+    width: 40%;
+}
+.d{
+    margin-left: 5%;
+    margin-top: 1%;
+    color: #f51689;
+}
+.chulo{
+    width: 5%;
+    border-radius: 100%;
+}
+
+.h{
+    background-position: center;
+    color: #f51689;
+}
+.s{
+    width: 60%;
+    margin: auto;
+    color: #bdbcc2;
+}
+.button.primaryy {
+    background-color: #f51689;
+    color: white;
+display: block;
+padding: 9px;
+
+}
+.button.primary {
+    background-color: #2e244fff;
+    color: white;
+    display: block;
+    padding: 9px;
+
+}
+
+.pricing {
+    padding: 60px 0;
+    background-color: #2e244fff;
+}
+
+.pricing h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.pricing-table {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing-item {
+    background-color: white;
+    padding: 30px;
+    border-radius: 6px;
+    text-align: center;
+    width:20%;
+}
+
+.pricing-item h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.price span {
+    font-size: 18px;
+}
+
+.pricing-item ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.pricing-item ul li {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer .social a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+@media (max-width: 921px) {
+    .botones {
+        margin-left: 20%;
+    }
+    .celular {
+        width: 50%;
+        margin-top: 30%;
+    }
+    .com{
+        display: none;
+    }
+}
+@media (max-width: 769px) {
+    h1 {
+        font-size: 90px;}
+        .celular{
+            margin-left: 110px;
+        }
+}
+@media (max-width: 481px) {
+    .celular{
+        display: none;
+    
+    }
+    header{
+        flex-direction: column;
+    }
+    .pricing-table {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .pricing-item {
+        width: 70%;
+    }
+    h1{
+        font-size: 60px;
+
+    }
+    .botones{
+        flex-direction: column;
+        padding: 10px;
+        width: 40%;
+    }
+
+}
+@media (max-width: 352px) {
+    .info-fonct {
+        margin-left: 20px;
+      }
+      .a {
+        font-size: 40px;
+      }
+      nav ul{
+        gap: 7px;}
+    .primer{
+      padding: 10px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .botones{
+        padding: 10px;
+        width: 50%;
+    }
+}
+
