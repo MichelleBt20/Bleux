@@ -268,6 +268,23 @@ padding: 9px;
         display: none;
     
     }
+
+    .info-fonct {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        
+      }
+      .c{
+        margin: 0;
+        width: 60%;
+      }
+    .primer{
+        font-size: 13px;
+        padding: 5px;
+    }
     header{
         flex-direction: column;
     }
@@ -287,25 +304,16 @@ padding: 9px;
         padding: 10px;
         width: 40%;
     }
+    .a {
+        font-size: 35px;
+      }
 
 }
 @media (max-width: 352px) {
-    .info-fonct {
-        margin-left: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        
-      }
+    
 
-      .c{
-        margin: 0;
-        width: 60%;
-      }
-      .a {
-        font-size: 35px;
-      }
+      
+      
       nav ul{
         gap: 7px;}
     h1{
@@ -319,10 +327,7 @@ padding: 9px;
         flex-wrap: wrap;
         font-size: 13px;
     }
-    .primer{
-        font-size: 13px;
-        padding: 5px;
-    }
+    
 
 }
 
