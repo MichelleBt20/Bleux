@@ -291,9 +291,10 @@ padding: 9px;
     .pricing-table {
         flex-direction: column;
         gap: 20px;
+        margin: 0;
     }
     .pricing-item {
-        width: 70%;
+        width: auto;
     }
     h1{
         font-size: 60px;
