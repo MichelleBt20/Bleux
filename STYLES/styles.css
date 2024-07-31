@@ -299,19 +299,32 @@ padding: 9px;
         font-size: 60px;
 
     }
+   
 
-    nav {
-        flex-wrap: wrap;
-        font-size: 13px;
-    }
+
     .botones{
-        flex-direction: column;
         padding: 10px;
-        width: 40%;
+        width: 90%; 
+        margin: 2px;
+    }
+
+  .Features {
+    font-size: 20;
+
+  }
+
+    .colorido span{
+        font-size: 20px;
+    }   
+
+    .colorido{
+        padding: 6px;
     }
     .a {
         font-size: 35px;
       }
+
+     
 
 }
 @media (max-width: 352px) {
@@ -328,13 +341,10 @@ padding: 9px;
         padding: 10px;
         width: 50%;
     }
-
-  
-
-    .colorido{
-        font-size: 1px;
+    nav {
+        flex-wrap: wrap;
+        font-size: 13px;
     }
-    
     
 
 }
