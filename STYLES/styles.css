@@ -329,7 +329,7 @@ padding: 9px;
         font-size: 13px;
     }
     nav ul{
-        gap: 10px;}
+        gap: 20px;}
 }
 @media (max-width: 352px) {
     
